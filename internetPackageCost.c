@@ -5,11 +5,11 @@ float internetPackageCost(int GB, char network[]) {
     float cost = 0.0;
 
     if (strcmp(network, "Zong") == 0) {
-        cost = GB * 100; // Zong: 100 PKR per 1 GB
+        cost = GB * 100;
     } else if (strcmp(network, "Jazz") == 0) {
-        cost = GB * 120; // Jazz: 120 PKR per 1 GB
+        cost = GB * 120;
     } else if (strcmp(network, "Telenor") == 0) {
-        cost = GB * 90;  // Telenor: 90 PKR per 1 GB
+        cost = GB * 90;
     } else {
         printf("Invalid network provider.\n");
     }
