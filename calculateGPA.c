@@ -14,7 +14,7 @@ float calculateGPA(int marks) {
     } else if (marks >= 60) {
         return 2.3;
     } else {
-        return 0.0; // Indicating Fail
+        return 0.0;
     }
 }
 
