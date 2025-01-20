@@ -12,8 +12,7 @@ int main() {
     scanf("%f", &amount);
     
     printf("Enter the currency type (U for USD, S for SAR, A for AED): ");
-    scanf(" %c", &currencyType); // Note the space before %c to consume any newline character
-
+    scanf(" %c", &currencyType); 
     printf("Enter the exchange rate to PKR: ");
     scanf("%f", &exchangeRate);
     
